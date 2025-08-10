@@ -167,3 +167,19 @@ configs/
 data/
 mlruns/
 model_registry/
+
+# AutoML tutorial outputs
+reports/
+autogluon_models/
+benchmark_models/
+mljar_results/
+checkpoints/
+# CatBoost run folders with timestamp suffixes (top-level)
+/catboost_*/
+# Results generated inside the kolosal_automl app
+kolosal_automl/standard_ml_results/
+
+# Editor settings (optional)
+.vscode/
+/catboost_*/ 
+**/catboost_*/.
